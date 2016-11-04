@@ -19,7 +19,7 @@ EE Bots are usually written in the C# programming language, because the server h
   * [Microsoft .NET Framework](https://www.microsoft.com/net/download): Software framework designed to run on Windows. Not cross-platform.
 * Compiler: It's the tool we are going to use to create and build our bots. **Please read below before selecting a compiler**
   * [MonoDevelop](http://www.monodevelop.com/) (Recommended): An open-source, cross-platform compiler that supports C# along with Gtk#, a cross-platform GUI toolkit.
-  * [Visual Studio]https://www.visualstudio.com/): A compiler for Windows programs, by Microsoft. It supports C# along with Windows Forms, Windows' default GUI toolkit.
+  * [Visual Studio](https://www.visualstudio.com/): A compiler for Windows programs, by Microsoft. It supports C# along with Windows Forms, Windows' default GUI toolkit.
   
 #### I want to create a bot with a nice GUI
 
@@ -29,6 +29,7 @@ GUIs are what most of people are used to. It makes it easier and more organized 
 * [Windows Forms](https://msdn.microsoft.com/en-us/library/dd30h2yb(v=vs.110).aspx): The default GUI toolkit included on Microsoft .NET Framework. It only supports Windows.
 
 If you want to create a cross-platform bot with GUI that can be used in both Windows and Linux, then your best choice is to use MonoDevelop and Gtk#. It will just require Windows users to install Gtk#, and Linux users to install Mono, which is easy and clearly better than Wine.
+
 If you want to create a classic, Windows-only bot with Windows Forms, then your option is to download Visual Studio. You are going to need a Microsoft Account to install the software. Also note that Visual Studio is very heavy. The minimal installation weights aprox. 2 GB, compared to MonoDevelop, which just weights 200 MB. Again, I recommend you to use MonoDevelop and Gtk# for your bot with GUI.
 
 #### I want to create a console bot
