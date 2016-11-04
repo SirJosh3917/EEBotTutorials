@@ -50,15 +50,22 @@ using PlayerIOClient;
 namespace TestBot {
   class Program {
     static void loggedIn (Client cli) {
+      Console.Clear ();
       Console.WriteLine ("Logged in!");
     }
     static void loginError (PlayerIOError error) {
+      Console.Clear ();
       Console.WriteLine ("Error while logging in.");
       Console.WriteLine (error.Message);
     }
     static void Main(string[] args) {
+      Console.WriteLine ("E-mail:");
       string email = Console.ReadLine ();
+      Console.Clear ();
+      Console.WriteLine ("Password:");
       string password = Console.ReadLine ();
+      Console.Clear ();
+      Console.WriteLine ("Logging in...");
       PlayerIO.QuickConnect.SimpleConnect ("everybody-edits-su9rn58o40itdbnw69plyw", email, password, null, loggedIn, loginError);
       Console.ReadKey (true);
     }
