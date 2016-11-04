@@ -30,7 +30,7 @@ GUIs are what most of people are used to. It makes it easier and more organized 
 
 If you want to create a cross-platform bot with GUI that can be used in both Windows and Linux, then your best choice is to use MonoDevelop and Gtk#. It will just require Windows users to install Gtk#, and Linux users to install Mono, which is easy and clearly better than Wine.
 
-If you want to create a classic, Windows-only bot with Windows Forms, then your option is to download Visual Studio. You are going to need a Microsoft Account to install the software. Also note that Visual Studio is very heavy. The minimal installation weights aprox. 2 GB, compared to MonoDevelop, which just weights 200 MB. Only Windows users who have Microsoft .NET Framework will be able to run the program properly (Mono doesn't support Windows Forms, Linux users can use Wine but it'll run and look bad) .Again, I recommend you to use MonoDevelop and Gtk# for your bot with GUI.
+If you want to create a classic, Windows-only bot with Windows Forms, then your option is to download Visual Studio. You are going to need a Microsoft Account to install the software. Also note that Visual Studio is very heavy. The minimal installation weights aprox. 2 GB, compared to MonoDevelop, which just weights 200 MB. Only Windows users who have Microsoft .NET Framework will be able to run the program properly (Mono doesn't support Windows Forms, Linux users can use Wine but it'll run and look bad). Again, I recommend you to use MonoDevelop and Gtk# for your bot with GUI.
 
 #### I want to create a console bot
 
