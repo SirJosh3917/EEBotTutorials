@@ -35,3 +35,9 @@ If you want to create a classic, Windows-only bot with Windows Forms, then your 
 #### I want to create a console bot
 
 If all what you want to do is a simple console app, then you are free to choose any of the frameworks and compilers. I personally recommend Mono and MonoDevelop, but that doesn't matter since console apps will be cross-platform (**unless you somehow call the Windows API, which is in most of the cases useless, and simply annoying, so please keep a pure .NET app**).
+
+### I have everything ready, let's go code
+
+Here are the basic steps on how to create your new EE Bot. **All these examples will use console applications**
+
+* [Creating the project](https://github.com/HabboGame/EEBotTutorials/blob/master/CreatingTheProject.md) - Decide the type of program you want to create
