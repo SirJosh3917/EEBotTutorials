@@ -17,7 +17,7 @@ EE Bots are usually written in the C# programming language, because the server h
 * .NET Framework: It's the framework that will allow you to run C# programs, as well as the bots we are going to create.
   * [Mono](http://www.mono-project.com/) (Recommended): An open-source implementation of Microsoft .NET Framework, for all the operative systems.
   * [Microsoft .NET Framework](https://www.microsoft.com/net/download): Software framework designed to run on Windows. Not cross-platform.
-* Compiler: It's the tool we are going to use to create and build our bots. **Please read below before selecting a compiler**
+* Compiler: It's the tool we are going to use to create and build our bots. **Please read the information below the list before selecting a compiler**
   * [MonoDevelop](http://www.monodevelop.com/) (Recommended): An open-source, cross-platform compiler that supports C# along with Gtk#, a cross-platform GUI toolkit.
   * [Visual Studio](https://www.visualstudio.com/): A compiler for Windows programs, by Microsoft. It supports C# along with Windows Forms, Windows' default GUI toolkit.
   
