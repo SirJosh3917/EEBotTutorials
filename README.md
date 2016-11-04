@@ -41,3 +41,4 @@ If all what you want to do is a simple console app, then you are free to choose 
 Here are the basic steps on how to create your new EE Bot. **All these examples will use console applications**
 
 * [Creating the project](https://github.com/HabboGame/EEBotTutorials/blob/master/CreatingTheProject.md) - Decide the type of program you want to create
+* [Connecting to EE](https://github.com/HabboGame/EEBotTutorials/blob/master/ConnectingToEE.md) - Log in to EE, determine if succeeded or failed
