@@ -12,14 +12,15 @@ All what you do actually need is knowledge. There is no sense in having tools yo
 
 ### Tools
 
-EE Bots are usually written in the C# programming language, because the server host [PlayerIO](http://playerio.com) provides a C# SDK for this purpose. Therefore, the best is to use this language. Let's go to the list of programs.
+EE Bots are usually written in the C# programming language, however they don't have to be because [PlayerIO](http://playerio.com) provides a range of SDKs to use for creating a bot, so that your bot works on any platform. However, most bots are programmed in C# and there are none so far that havn't been made in C#. Let's go to the list of programs you need to get.
 
 * .NET Framework: It's the framework that will allow you to run C# programs, as well as the bots we are going to create.
-  * [Mono](http://www.mono-project.com/) (Recommended): An open-source implementation of Microsoft .NET Framework, for all the operative systems.
-  * [Microsoft .NET Framework](https://www.microsoft.com/net/download): Software framework designed to run on Windows. Not cross-platform.
-* Compiler: It's the tool we are going to use to create and build our bots. **Please read the information below the list before selecting a compiler**
+  * [Mono](http://www.mono-project.com/) (Recommended): An open-source implementation of Microsoft .NET Framework, for all operating systems.
+  * [Microsoft .NET Framework](https://www.microsoft.com/net/download): Software framework designed to run on Windows, however not cross-platform. This non-cross-platform barrier however can be bypassed using external tools like Wine for mac.
+* IDE: It's the tool we are going to use to create and build our bots, and IDE stands for Integrated Developer Environment. **Please read the information below the list before selecting an IDE**
   * [MonoDevelop](http://www.monodevelop.com/) (Recommended): An open-source, cross-platform compiler that supports C# along with Gtk#, a cross-platform GUI toolkit.
   * [Visual Studio](https://www.visualstudio.com/): A compiler for Windows programs, by Microsoft. It supports C# along with Windows Forms, Windows' default GUI toolkit.
+  * [SharpDevelop](http://www.icsharpcode.net/): A small IDE used if you want to get up and going fast, while still providing almost as many features as Visual Studio does.
   
 #### I want to create a bot with a nice GUI
 
